@@ -3,34 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- CSS -->
      <link rel="stylesheet" href="./styles/styles.css">
     <title>Bridges Academy</title>
 </head>
 <body>
     <header>
-        <img src="./images/logo.png" alt="Bridges Academy">
-        <nav>
-            <ul>
-                <li class="li-nav">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="./pages/quienesSomos.html">Quienes Somos</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="./pages/visasEeuu.html">Visas a EE.UU.</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="./pages/alumnos.html">Alumnos</a>
-                </li>
-                <li class="li-nav">
-                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
-                </li>
-           </ul>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="Bridges Academy">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/quienesSomos.html">Quienes Somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/visasEeuu.html">Visas a EE.UU.</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/alumnos.html">Alumnos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-
+    
     <main>
         <section class="main-section">
             <h1>Bridges Academy</h1>
@@ -64,5 +72,7 @@
             <img src="https://placehold.co/400x50" alt="Nuestras redes">
         </div>
     </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
